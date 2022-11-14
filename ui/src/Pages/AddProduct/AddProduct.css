@@ -1,0 +1,49 @@
+.add-product{
+    margin-top: 5vh;
+    width: 86%;
+    float: right;
+    text-align: center;
+}
+
+
+.add-product .row {
+    width: 50%;
+    background-color: lightgray;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.product-heading {
+    height: 8vh;
+    text-align: center;
+    background-color: #777;
+    padding: 1vh;
+}
+
+.product-heading h2 {
+    color: white;
+}
+
+.fields {
+    margin-top: 2vh;
+}
+
+.fields span {
+    margin: 0 15px 0 15px;
+}
+
+.add-product-form .btn {
+    margin: 2vh;
+}
+
+.fields input,
+.fields select {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+
+.add-product-form {
+    margin-top: 5vh;
+}

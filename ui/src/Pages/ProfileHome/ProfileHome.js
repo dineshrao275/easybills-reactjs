@@ -1,6 +1,6 @@
-import ProfilePage from '../Profilepage/ProfilePage';
 import ProfileSidebar from '../ProfileSidebar/ProfileSidebar';
 import './ProfileHome.css';
+import WelcomePage from '../WelcomePage/WelcomePage';
 
 
 var ProfileHome = () => {
@@ -8,7 +8,8 @@ var ProfileHome = () => {
         <div className='container-fluid'>
            
             <ProfileSidebar />
-            <ProfilePage />
+             <WelcomePage/> 
+            
         </div>
     );
 }

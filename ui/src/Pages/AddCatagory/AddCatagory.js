@@ -2,23 +2,32 @@ import './AddCatagory.css';
 
 
 var AddCatagory = () => {
-    return(
+    return (
         <div>
-            <div className='container'>
-                <h1>AddCatagory</h1>
-
-                <form >
-                    <div className='container' >
-                    <label>Catagory Name</label>
-                    <input type='text' name='catagoryname' placeholder='catagory'/> 
+            <div className='container-fluid add-catagory'>
+                <div className='row'>
+                    <div className='catagory-heading'>
+                        <h2>Add Catagory</h2>
                     </div>
-                    <button type='submit' >Add</button>
-                </form>
-                <hr />
-            </div>
 
-            <div >
-                    editable
+                    <form className='add-catagory-form'>
+                        <div className='fields'>
+                            <span>Catagory  Name: </span>
+                            <span> <input type='text' name='catagoryname' placeholder='' required /> </span>
+                        </div>
+                       
+                        <button type='submit' className='btn btn-outline-primary' >Add</button>
+                    </form>
+                </div>
+
+
+
+                <div className='catagory-table' >
+                    <hr />
+                    <div className='catagory-heading'>
+                        <h2>Catagory list</h2>
+                    </div>
+                </div>
             </div>
 
         </div>

@@ -1,3 +1,31 @@
-.container{
+.billing {
+    width: 86%;
+    float:right;
+    border: 1px solid red;
+}
+.billing-heading{
+    margin:2vh 0;
+    width: 100%;
     text-align: center;
+}
+
+.billing-heading h2 {
+    margin: auto;
+    padding: 2vh 2vw;
+    width: 20%;
+    background-color: lightgray;
+}
+
+.existing-bills{
+    width:50%;
+    border: 1px solid red;
+    display: inline;
+    float: left;
+}
+
+.make-bills {
+    width: 50%;
+    border: 1px solid red;
+    display: inline;
+    float: right;
 }
